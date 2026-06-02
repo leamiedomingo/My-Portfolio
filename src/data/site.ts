@@ -21,19 +21,11 @@ export const about = `I am a Bachelor of Science in Information Systems student 
 My academic work spans database management, system analysis, and research on how artificial intelligence can be governed responsibly in academic settings. I enjoy collaborating with peers and finding ways data-driven solutions can create meaningful community impact.`; 
 
 export const experience = [
-  { role: "Senior Programmer", company: "ISySS-CDM CSU", year: "2026" },
-  { role: "Systems Analyst", company: "DA-BAFE ABEMIS3.0", year: "2025" },
-  { role: "Part Time Faculty", company: "CCIS-CSU", year: "2024" },
-  { role: "Evaluator", company: "FaMRIA, DA BAFE", year: "2024" },
-  {
-    role: "Master of Science in Information Tech",
-    company: "Caraga State University",
-    year: "2024",
-  },
-  { role: "Junior Developer", company: "MARVELTechnologies", year: "2022" },
-  { role: "Admin Staff", company: "OWWA Caraga", year: "2019-2022" },
-  { role: "BS Information Technology", company: "Caraga State University", year: "2019" },
-  { role: "Hello World", company: "Started my coding journey", year: "2015" },
+  { role: "Database Developer", company: "CCIS-CSU", year: "2026" },
+  { role: "Research Analyst", company: "CCSI-CSU", year: "2026" },
+  { role: "Web Developer", company: "CCIS-CSU", year: "2025-2026" },
+  { role: "BS Information System", company: "Caraga State University", year: "2021" },
+  { role: "Hello World", company: "Started my coding journey", year: "2022" },
 ];
 
 export const techStack = {
@@ -70,18 +62,8 @@ export const certifications: {
   year?: string;
 }[] = [
   {
-    name: "SPARK Technical Training for Blockchain Cryptocurrency Specialist Certification",
-    issuer: "Department of Information and Communications Technology",
-    href: "#",
-  },
-  {
-    name: "Coursera UX/UI Certification",
-    issuer: "Google",
-    href: "#",
-  },
-  {
-    name: "Project Management",
-    issuer: "University of the Philippines",
+    name: "TESDA NC Certificates",
+    issuer: "TESDA",
     href: "#",
   },
 ];

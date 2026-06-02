@@ -49,9 +49,9 @@ export const techStack = {
 };
 
 export const projects = [
-  { name: "Corporate Payroll & Tax Compliance System", description: "Full-stack database system with 8 normalized tables, privacy-compliant PII handling under RA 10173, indexed queries, and masked employee data view. Built for ITE 16 — Database Management Systems.",
-  { name: "AI Governance Readiness Research", description: "Academic research manuscript studying AI governance readiness and ChatGPT usage practices in higher education, comparing faculty and students at CSU using a UTAUT framework adapted from Budhathoki et al. (2024).", 
-  { name: "Personal Portfolio Website", description: "A clean, minimal personal portfolio built from scratch using HTML, CSS, and JavaScript. Deployed via Vercel with version control through GitHub.", 
+  { name: "Corporate Payroll & Tax Compliance System", description: "Full-stack database system with 8 normalized tables, privacy-compliant PII handling under RA 10173, indexed queries, and masked employee data view. Built for ITE 16 — Database Management Systems." },
+  { name: "AI Governance Readiness Research", description: "Academic research manuscript studying AI governance readiness and ChatGPT usage practices in higher education, comparing faculty and students at CSU using a UTAUT framework adapted from Bukhathoki et al. (2024)." },
+  { name: "Personal Portfolio Website", description: "A clean, minimal personal portfolio built from scratch using HTML, CSS, and JavaScript. Deployed via Vercel with version control through GitHub." },
 ];
 
 

@@ -1,19 +1,19 @@
 export const site = {
-  name: "Leamie Sulapas Domingo",
+  name: "Kier Patrick Empang",
   location: "Butuan City, Philippines",
-  tagline: "Student| Web Developer | Research Analyst",
+  tagline: "Software Engineer | Web Developer | UX/UI Designer",
   /** Optional: URL to profile image (e.g. /avatar.jpg). Leave empty for initials placeholder. */
   avatarUrl: "" as string | undefined,
   /** Show verified checkmark next to name */
   verified: true,
   /** Optional: Facebook profile URL – verified badge links here when set */
   facebookUrl: "" as string | undefined,
-  email: "leamie.domingo@carsu.edu.ph",
+  email: "your@email.com",
   calendlyUrl: "https://calendly.com/your-link",
   blogUrl: "https://blog.yoursite.com",
-  linkedin: "https://www.linkedin.com/in/leamie-sulapas-domingo-324041413/",
-  github: "https://github.com/leamiedomingo",
-  instagram: "https://www.instagram.com/just_lea432?igsh=aGc0MTQ4a201amJp",
+  linkedin: "https://linkedin.com/in/yourprofile",
+  github: "https://github.com/yourprofile",
+  instagram: "https://instagram.com/yourprofile",
 };
 
 export const heroBadges: { label: string; href: string; subtitle?: string }[] = [];
@@ -25,17 +25,19 @@ Beyond full-stack engineering, I also have a strong interest in immersive techno
 I also work on mobile development using React Native and Flutter, and I continue to broaden my technical focus through DevOps automation, workflow improvement, and AI-powered solutions that help teams deliver faster, smarter, and with greater consistency.`; 
 
 export const experience = [
-  { role: "Database Developer", company: "CCIS-CSU", year: "2026" },
-  { role: "Research Analyst", company: "CCSI-CSU", year: "2026" },
-  { role: "Web Developer", company: "CCIS-CSU", year: "2025-2026" },
-  { role: "BS Information System", company: "Caraga State University", year: "2021" },
-  { 
-   role: "Hello World", company: "Started my coding journey", year: "2022"
+  { role: "Senior Programmer", company: "ISySS-CDM CSU", year: "2026" },
+  { role: "Systems Analyst", company: "DA-BAFE ABEMIS3.0", year: "2025" },
+  { role: "Part Time Faculty", company: "CCIS-CSU", year: "2024" },
+  { role: "Evaluator", company: "FaMRIA, DA BAFE", year: "2024" },
+  {
+    role: "Master of Science in Information Tech",
+    company: "Caraga State University",
+    year: "2024",
   },
-  { role: "Research Assistant", company: "CCIS-CSU", year: "2025" },
-  { role: "System Analyst", company: "BSIS-CSU", year: "2026" },
-  { role: "Documentation Officer", company: "LGU", year: "2022-2024" },
-  { role: "Seminar Participant", company: "Sangguniang Kabataan", year: "2023" },
+  { role: "Junior Developer", company: "MARVELTechnologies", year: "2022" },
+  { role: "Admin Staff", company: "OWWA Caraga", year: "2019-2022" },
+  { role: "BS Information Technology", company: "Caraga State University", year: "2019" },
+  { role: "Hello World", company: "Started my coding journey", year: "2015" },
 ];
 
 export const techStack = {
@@ -59,10 +61,10 @@ export const techStack = {
 };
 
 export const projects = [
-  { name: "Corporate Payroll & Tax Compliance System", description: "Full-stack database system with 8 normalized tables, privacy-compliant PII handling under RA 10173, indexed queries, and masked employee data view. Built for ITE 16 — Database Management Systems." },
-  { name: "AI Governance Readiness Research", description: "Academic research manuscript studying AI governance readiness and ChatGPT usage practices in higher education, comparing faculty and students at CSU using a UTAUT framework adapted from Bukhathoki et al. (2024)." },
-  { name: "Personal Portfolio Website", description: "A clean, minimal personal portfolio built from scratch using HTML, CSS, and JavaScript. Deployed via Vercel with version control through GitHub." },
-  { name: "Car Rental Management System", description: "Built a car rental system with vehicle inventory, booking management, and customer records using database integration." },
+  { name: "ISySS-CDM", description: "CSU & PNP collaborative system platform", url: "https://isyss-cdm.web.app/", domain: "isyss-cdm.web.app" },
+  { name: "ABEMIS 3.0", description: "Agricultural & Biosystems Engineering Management Information System", url: "https://abemis-front.vercel.app/", domain: "abemis-front.vercel.app" },
+  { name: "MARVEL Technologies", description: "AR/VR technology initiative and simulation platform", url: "https://chci.carsu.edu.ph/marvel-technologies/", domain: "chci.carsu.edu.ph" },
+  { name: "DYNAMIS Workout Tracker", description: "AI-powered workout tracker", url: "https://dynamis-app.online", domain: "dynamis-app.online" },
 ];
 
 export const certifications: {
@@ -72,8 +74,8 @@ export const certifications: {
   year?: string;
 }[] = [
   {
-    name: "TESDA NC Certificates",
-    issuer: "TESDA",
+    name: "SPARK Technical Training for Blockchain Cryptocurrency Specialist Certification",
+    issuer: "Department of Information and Communications Technology",
     href: "#",
   },
   {
@@ -82,26 +84,26 @@ export const certifications: {
     href: "#",
   },
   {
-    name: "SQL and Database Basics",
-    issuer: "SoloLearn",
+    name: "Project Management",
+    issuer: "University of the Philippines",
     href: "#",
   },
 ];
 
 export const recommendations = [
-  { quote: "Information systems are the backbone of modern organizations, enabling efficiency, innovation, and competitive advantage.", author: "James O'Brien", title: "Professor & Author" },
-  { quote: "Every business is a software company. You have to start thinking and operating like a digital company.", author: "Satya Nadella", title: "CEO, Microsoft" },
-  { quote: "Information is the oil of the 21st century, and analytics is the combustion engine.", author: "Peter Sondergaard", title: "Senior Vice President, Gartner Research" },
-  { quote: "The goal of information technology is to automate and accelerate the flow of information to improve decision-making.", author: "Bill Gates", title: "Co-Founder, Microsoft" },
-  { quote: "Data is not information, information is not knowledge, knowledge is not understanding, understanding is not wisdom.", author: "Clifford Stoll", title: "Astronomer & Author" },
-  { quote: "An information system is not just technology — it is people, processes, and data working together.", author: "Kenneth Laudon", title: "Professor, New York University" },
-  { quote: "Without data, you're just another person with an opinion.", author: "W. Edwards Deming", title: "Statistician & Management Consultant" },
-  { quote: "The internet is becoming the town square for the global village of tomorrow.", author: "Bill Gates", title: "Co-Founder, Microsoft" },
+  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Cris Lawrence Adrian Militante", title: "ICT Director at GCM" },
+  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Ken Gorro", title: "Senior Developer at Fullscale" },
+  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Patrick Vince Velasco", title: "Software Engineer, YNS" },
+  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "John Edmerson Pizarra", title: "Jr. Full-stack Developer, PocketDevs" },
+  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Glenn Pepito", title: "Professor at University of San Carlos" },
+  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Van Honoridez", title: "Application Development Analyst at Accenture" },
+  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Zinia Ma. Consuelo R. Trinidad", title: "Web Developer, Quickway Holdings Inc." },
+  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Jomar Neri", title: "Full-stack Developer, Freelance" },
 ];
 
 export const memberships = [
   {
-    name: "Information System Student Society - Caraga State University",
+    name: "Philippine Society of IT Educators – Caraga Chapter",
     href: "https://psite.org/",
   },
 ];

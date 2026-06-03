@@ -1,43 +1,43 @@
 export const site = {
-  name: "Kier Patrick Empang",
+  name: "Leamie Sulapas Domingo",
   location: "Butuan City, Philippines",
-  tagline: "Software Engineer | Web Developer | UX/UI Designer",
+  tagline: "Student | Web Developer | Research Analyst",
   /** Optional: URL to profile image (e.g. /avatar.jpg). Leave empty for initials placeholder. */
   avatarUrl: "" as string | undefined,
   /** Show verified checkmark next to name */
   verified: true,
   /** Optional: Facebook profile URL – verified badge links here when set */
   facebookUrl: "" as string | undefined,
-  email: "your@email.com",
+  email: "leamie.domingo@carsu.edu.ph",
   calendlyUrl: "https://calendly.com/your-link",
   blogUrl: "https://blog.yoursite.com",
-  linkedin: "https://linkedin.com/in/yourprofile",
-  github: "https://github.com/yourprofile",
-  instagram: "https://instagram.com/yourprofile",
+  linkedin: "https://www.linkedin.com/in/leamie-sulapas-domingo-324041413/",
+  github: "https://github.com/leamiedomingo",
+  instagram: "https://www.instagram.com/just_lea432?igsh=aGc0MTQ4a201amJp",
 };
 
 export const heroBadges: { label: string; href: string; subtitle?: string }[] = [];
 
-export const about = `I am a full-stack software engineer with hands-on experience in end-to-end product development, from requirements gathering and system planning to implementation, optimization, and long-term maintenance. I am currently part of ISySS-CDM, a three-year project where I work as a senior programmer and take on key responsibilities in data gathering, software development, architecture design, and making sure the codebase remains efficient, scalable, and maintainable as the project grows.
+export const about = `I am a BS Information Systems student at Caraga State University with hands-on experience in database development, web development, research, and system analysis. My technical work includes building a Corporate Payroll and Tax Compliance System with privacy-compliant database design under RA 10173, and a personal portfolio website deployed via Vercel.
 
-Beyond full-stack engineering, I also have a strong interest in immersive technologies and have previously contributed to a DOST-funded initiative, MARVELTechnologies, which focused on building AR/VR solutions through mining simulation use cases. That experience expanded my perspective on simulation-driven learning and interactive environments, and it strengthened my ability to design solutions across both traditional and emerging platforms.
+I also co-authored a research manuscript on AI Governance Readiness and ChatGPT usage practices in higher education using the UTAUT framework. Beyond academics, I have served as a Documentation Officer for the LGU and participated in youth leadership programs through the Sangguniang Kabataan.
 
-I also work on mobile development using React Native and Flutter, and I continue to broaden my technical focus through DevOps automation, workflow improvement, and AI-powered solutions that help teams deliver faster, smarter, and with greater consistency.`; 
+I am continuously growing my skills across frontend development, database management, and research — driven by a genuine interest in building systems that are efficient, compliant, and meaningful.`; 
 
 export const experience = [
-  { role: "Senior Programmer", company: "ISySS-CDM CSU", year: "2026" },
-  { role: "Systems Analyst", company: "DA-BAFE ABEMIS3.0", year: "2025" },
-  { role: "Part Time Faculty", company: "CCIS-CSU", year: "2024" },
-  { role: "Evaluator", company: "FaMRIA, DA BAFE", year: "2024" },
+  { role: "Database Developer", company: "CCIS-CSU", year: "2026" },
+  { role: "Research Analyst", company: "CCIS-CSU", year: "2026" },
+  { role: "Web Developer", company: "CCIS-CSU", year: "2025-2026" },
+  { role: "BS Information System", company: "Caraga State University", year: "2023" },
   {
-    role: "Master of Science in Information Tech",
-    company: "Caraga State University",
+    role: "Seminar Participant",
+    company: "Sangguniang Kabataan",
     year: "2024",
   },
-  { role: "Junior Developer", company: "MARVELTechnologies", year: "2022" },
-  { role: "Admin Staff", company: "OWWA Caraga", year: "2019-2022" },
-  { role: "BS Information Technology", company: "Caraga State University", year: "2019" },
-  { role: "Hello World", company: "Started my coding journey", year: "2015" },
+  { role: "Research Assistant", company: "CCIS-CSU", year: "2026" },
+  { role: "System Analyst", company: "BSIS-CSU", year: "2026" },
+  { role: "Documentation Officer", company: "LGU", year: "2022-2024" },
+  { role: "Hello World", company: "Started my coding journey", year: "2021" },
 ];
 
 export const techStack = {
@@ -61,10 +61,10 @@ export const techStack = {
 };
 
 export const projects = [
-  { name: "ISySS-CDM", description: "CSU & PNP collaborative system platform", url: "https://isyss-cdm.web.app/", domain: "isyss-cdm.web.app" },
-  { name: "ABEMIS 3.0", description: "Agricultural & Biosystems Engineering Management Information System", url: "https://abemis-front.vercel.app/", domain: "abemis-front.vercel.app" },
-  { name: "MARVEL Technologies", description: "AR/VR technology initiative and simulation platform", url: "https://chci.carsu.edu.ph/marvel-technologies/", domain: "chci.carsu.edu.ph" },
-  { name: "DYNAMIS Workout Tracker", description: "AI-powered workout tracker", url: "https://dynamis-app.online", domain: "dynamis-app.online" },
+  { name: "Corporate Payroll & Tax Compliance System", description: "Full-stack database system", url: "https://payroll-tax-system.leamiedomingo.vercel.app", domain: "payroll-tax-system.leamiedomingo.vercel.app" },
+  { name: "AI Governance Readiness Research", description: "Academic research manuscript", url: "https://ai-governance-research.leamiedomingo.vercel.app", domain: "ai-governance-research.leamiedomingo.vercel.app" },
+  { name: "Personal Portfolio Website", description: "A clean, minimal personal portfolio built from scratch", url: "https://leamiedomingo.vercel.app", domain: "leamiedomingo.vercel.app" },
+  { name: "Car Rental Management System", description: "Built a car rental system", url: "https://car-rental-system.leamiedomingo.vercel.app", domain: "car-rental-system.leamiedomingo.vercel.app" },
 ];
 
 export const certifications: {
@@ -74,36 +74,36 @@ export const certifications: {
   year?: string;
 }[] = [
   {
-    name: "SPARK Technical Training for Blockchain Cryptocurrency Specialist Certification",
-    issuer: "Department of Information and Communications Technology",
+    name: "TESDA NC Certificates",
+    issuer: "TESDA",
     href: "#",
   },
   {
-    name: "Coursera UX/UI Certification",
-    issuer: "Google",
+    name: "SQL and Database Basics",
+    issuer: "SoloLearn",
     href: "#",
   },
   {
-    name: "Project Management",
-    issuer: "University of the Philippines",
+    name: "Cybersecurity Certificate",
+    issuer: "Sangguniang Kabataan-CARAGA",
     href: "#",
   },
 ];
 
 export const recommendations = [
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Cris Lawrence Adrian Militante", title: "ICT Director at GCM" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Ken Gorro", title: "Senior Developer at Fullscale" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Patrick Vince Velasco", title: "Software Engineer, YNS" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "John Edmerson Pizarra", title: "Jr. Full-stack Developer, PocketDevs" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Glenn Pepito", title: "Professor at University of San Carlos" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Van Honoridez", title: "Application Development Analyst at Accenture" },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Zinia Ma. Consuelo R. Trinidad", title: "Web Developer, Quickway Holdings Inc." },
-  { quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.", author: "Jomar Neri", title: "Full-stack Developer, Freelance" },
+  { quote: "Information systems are the backbone of modern organizations, enabling efficiency, innovation, and competitive advantage.", author: "James O'Brien", title: "Professor & Author" },
+  { quote: "Every business is a software company. You have to start thinking and operating like a digital company.", author: "Satya Nadella", title: "CEO, Microsoft" },
+  { quote: "Information is the oil of the 21st century, and analytics is the combustion engine.", author: "Peter Sondergaard", title: "Senior Vice President, Gartner Research" },
+  { quote: "The goal of information technology is to automate and accelerate the flow of information to improve decision-making.", author: "Bill Gates", title: "Co-Founder, Microsoft" },
+  { quote: "Data is not information, information is not knowledge, knowledge is not understanding, understanding is not wisdom.", author: "Clifford Stoll", title: "Astronomer & Author" },
+  { quote: "An information system is not just technology — it is people, processes, and data working together.", author: "Kenneth Laudon", title: "Professor, New York University" },
+  { quote: "Without data, you're just another person with an opinion.", author: "W. Edwards Deming", title: "Statistician & Management Consultant" },
+  { quote: "The internet is becoming the town square for the global village of tomorrow.", author: "Bill Gates", title: "Co-Founder, Microsoft" },
 ];
 
 export const memberships = [
   {
-    name: "Philippine Society of IT Educators – Caraga Chapter",
+    name: "Information System Student Society - Caraga State University",
     href: "https://psite.org/",
   },
 ];

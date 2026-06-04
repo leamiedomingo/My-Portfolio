@@ -9,7 +9,7 @@ export const site = {
   /** Optional: Facebook profile URL – verified badge links here when set */
   facebookUrl: "" as string | undefined,
   email: "leamie.domingo@carsu.edu.ph",
-  calendlyUrl: "https://calendly.com/your-link",
+  calendlyUrl: "leamie-domingo-carsu",
   blogUrl: "https://blog.yoursite.com",
   linkedin: "https://www.linkedin.com/in/leamie-sulapas-domingo-324041413/",
   github: "https://github.com/leamiedomingo",
